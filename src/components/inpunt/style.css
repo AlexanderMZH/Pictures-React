@@ -8,4 +8,9 @@
 .search button {
   padding: 10px;
   cursor: pointer;
+  transition: background-color 2s ease;
+}
+
+.search button:hover {
+  background-color: rgb(137, 137, 238);
 }
